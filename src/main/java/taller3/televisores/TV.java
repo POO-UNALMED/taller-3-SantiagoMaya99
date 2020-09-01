@@ -71,8 +71,8 @@ public class TV {
 		return numTV;
 	}
 	
-	public static void setNumTV(int numTV) {
-		numTV=numTV;
+	public static void setNumTV(int numeroTV) {
+		numTV=numeroTV;
 	}
 	
 	public void turnOn() {
