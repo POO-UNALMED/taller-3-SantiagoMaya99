@@ -42,7 +42,7 @@ public class Control {
 
 	public void setCanal(int canal) {
 
-		if (canal > 1 && canal < 120 && tv.estado == true) tv.canal = canal;
+		if (canal >= 1 && canal <= 120 && tv.estado == true) tv.canal = canal;
 	}
 	
 	public void enlazar(TV tv) {
